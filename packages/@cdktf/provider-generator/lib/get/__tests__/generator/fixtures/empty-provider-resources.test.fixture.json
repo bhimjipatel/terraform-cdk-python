@@ -1,0 +1,7 @@
+{
+  "provider_schemas": {
+    "registry.terraform.io/hashicorp/aws": {
+      "resource_schemas": null
+    }
+  }
+}

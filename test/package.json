@@ -1,0 +1,32 @@
+{
+  "name": "end2end-tests",
+  "private": true,
+  "version": "0.0.0",
+  "description": "This directory contains integration tests for the cdktf project.",
+  "scripts": {
+    "edge:install": "rm -rf ./edge-provider-bindings && cp -R ../packages/@cdktf/provider-generator/edge-provider-bindings/ ./edge-provider-bindings",
+    "edge:translateTests": "node ./translate-edge-tests.js",
+    "preedge:update": "npm run edge:install",
+    "edge:update": "./run-against-dist ./update-edge.sh",
+    "test:provider": "./provider-tests/test-provider.sh",
+    "test:provider:windows": "./provider-tests/test-provider.bat"
+  },
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "@cdktf/node-pty-prebuilt-multiarch": "0.10.1-pre.10",
+    "@skorfmann/terraform-cloud": "^1.9.1",
+    "@types/express": "^4.17.13",
+    "@types/fs-extra": "^8.1.0",
+    "@types/jest": "^29.5.0",
+    "archiver": "^5.3.0",
+    "execa": "^5.1.1",
+    "express": "^4.17.2",
+    "fs-extra": "^8.1.0",
+    "has-ansi": "^4.0.1",
+    "jest": "^29.5.0",
+    "jsii-rosetta": "^5.1.9",
+    "strip-ansi": "^6.0.0",
+    "ts-jest": "^29.0.5",
+    "typescript": "^5.0.2"
+  }
+}

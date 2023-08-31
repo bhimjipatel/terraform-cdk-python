@@ -1,0 +1,51 @@
+{
+  "name": "@cdktf/provider-generator",
+  "version": "0.0.0",
+  "description": "Exposes API to generate Terraform CDK provider bindings",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "postbuild": "node ./lib/__tests__/edge-provider-schema/cli.js ./edge-provider-bindings",
+    "watch": "tsc -w",
+    "watch-preserve-output": "tsc -w --preserveWatchOutput",
+    "test": "jest",
+    "test:ci": "jest --ci",
+    "jest-watch": "jest --watch",
+    "package": "./package.sh",
+    "dist-clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hashicorp/terraform-cdk.git",
+    "directory": "packages/@cdktf/provider-generator"
+  },
+  "author": {
+    "name": "HashiCorp",
+    "url": "https://hashicorp.com"
+  },
+  "keywords": ["cdk", "cdktf", "terraform"],
+  "license": "MPL-2.0",
+  "dependencies": {
+    "@cdktf/commons": "0.0.0",
+    "@cdktf/hcl2json": "0.0.0",
+    "@types/node": "16.18.23",
+    "codemaker": "^1.87.0",
+    "deepmerge": "^4.2.2",
+    "fs-extra": "^8.1.0",
+    "jsii-srcmak": "^0.1.951"
+  },
+  "devDependencies": {
+    "@types/deepmerge": "^2.2.0",
+    "@types/fs-extra": "^8.1.2",
+    "@types/glob": "^7.2.0",
+    "@types/jest": "^29.5.0",
+    "@types/reserved-words": "^0.1.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5",
+    "typescript": "^5.0.2"
+  }
+}

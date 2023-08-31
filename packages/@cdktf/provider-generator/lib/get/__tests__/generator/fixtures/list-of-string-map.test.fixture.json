@@ -1,0 +1,38 @@
+{
+  "provider_schemas": {
+    "registry.terraform.io/hashicorp/aws": {
+      "resource_schemas": {
+        "aws_list_of_string_map": {
+          "version": 1,
+          "block": {
+            "attributes": {
+              "keys": {
+                "type": [
+                  "list",
+                  [
+                    "map",
+                    "string"
+                  ]
+                ],
+                "description": "List of key versions in the keyring.",
+                "computed": true
+              },
+              "settable_keys": {
+                "type": [
+                  "list",
+                  [
+                    "map",
+                    "string"
+                  ]
+                ],
+                "description": "List of key versions in the keyring.",
+                "optional": true
+              }
+            }
+          },
+          "block_types": {}
+        }
+      }
+    }
+  }
+}

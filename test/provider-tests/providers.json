@@ -1,0 +1,14 @@
+{
+    "aws":"aws",
+    "google": "google",
+    "azurerm": "azurerm",
+    "kubernetes": "kubernetes",
+    "consul": "consul",
+    "vault": "vault",
+    "nomad": "nomad",
+    "external": "external",
+    "openstack": "terraform-providers/openstack",
+    "oci": "hashicorp/oci",
+    "datadog": "DataDog/datadog",
+    "awscc": "awscc"
+}

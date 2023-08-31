@@ -1,0 +1,14 @@
+
+!*.js
+*.ts
+!*.d.ts
+test
+
+cdktf.out
+
+# Exclude jsii outdir
+dist
+
+# Include .jsii
+!.jsii
+terraform-cdk.github-issues

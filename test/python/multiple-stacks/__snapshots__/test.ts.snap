@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`python full integration test synth synth generates JSON for both stacks 1`] = `
+"{
+  "//": {
+    "metadata": {
+      "backend": "local",
+      "stackName": "python-simple-one",
+      "version": "stubbed"
+    },
+    "outputs": {}
+  },
+  "provider": {
+    "null": [
+      {}
+    ]
+  },
+  "resource": {
+    "null_resource": {
+      "null-resource": {
+        "//": {
+          "metadata": {
+            "path": "python-simple-one/null-resource",
+            "uniqueId": "null-resource"
+          }
+        }
+      }
+    }
+  },
+  "terraform": {
+    "backend": {
+      "local": {
+        "path": "terraform.tfstate"
+      }
+    },
+    "required_providers": {
+      "null": {
+        "source": "hashicorp/null",
+        "version": "3.1.1"
+      }
+    }
+  }
+}"
+`;
+
+exports[`python full integration test synth synth generates JSON for both stacks 2`] = `
+"{
+  "//": {
+    "metadata": {
+      "backend": "local",
+      "stackName": "python-simple-two",
+      "version": "stubbed"
+    },
+    "outputs": {}
+  },
+  "provider": {
+    "null": [
+      {}
+    ]
+  },
+  "resource": {
+    "null_resource": {
+      "null-resource": {
+        "//": {
+          "metadata": {
+            "path": "python-simple-two/null-resource",
+            "uniqueId": "null-resource"
+          }
+        }
+      }
+    }
+  },
+  "terraform": {
+    "backend": {
+      "local": {
+        "path": "terraform.tfstate"
+      }
+    },
+    "required_providers": {
+      "null": {
+        "source": "hashicorp/null",
+        "version": "3.1.1"
+      }
+    }
+  }
+}"
+`;

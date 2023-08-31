@@ -1,0 +1,13 @@
+**/.jsii
+**/*.js
+**/*.d.ts
+**/node_modules
+
+**/coverage
+!**/tsconfig.json
+!**/jest.config.js
+
+**/cdktf.out
+**/.gen
+**/dist
+**/.terraform

@@ -1,0 +1,4 @@
+dist/
+imports/
+terraform.tfstate*
+!synth-all-examples.js

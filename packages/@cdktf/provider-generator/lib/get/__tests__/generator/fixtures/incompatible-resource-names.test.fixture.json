@@ -1,0 +1,81 @@
+{
+  "provider_schemas": {
+    "registry.terraform.io/hashicorp/test": {
+      "resource_schemas": {
+        "test_string": {
+          "version": 1,
+          "block": {
+            "attributes": {
+              "dummy": {
+                "type": "string",
+                "optional": true
+              }
+            }
+          },
+          "block_types": {}
+        },
+        "test_object": {
+          "version": 1,
+          "block": {
+            "attributes": {
+              "dummy": {
+                "type": "string",
+                "optional": true
+              }
+            }
+          },
+          "block_types": {}
+        },
+        "test_function": {
+          "version": 1,
+          "block": {
+            "attributes": {
+              "dummy": {
+                "type": "string",
+                "optional": true
+              }
+            }
+          },
+          "block_types": {}
+        },
+        "test_static": {
+          "version": 1,
+          "block": {
+            "attributes": {
+              "dummy": {
+                "type": "string",
+                "optional": true
+              }
+            }
+          },
+          "block_types": {}
+        },
+        "test_provider": {
+          "version": 1,
+          "block": {
+            "attributes": {
+              "dummy": {
+                "type": "string",
+                "optional": true
+              }
+            }
+          },
+          "block_types": {}
+        },
+        "test_license": {
+          "version": 1,
+          "block": {
+            "attributes": {
+              "dummy": {
+                "type": "string",
+                "optional": true
+              }
+            }
+          },
+          "block_types": {}
+        }
+      }
+    }
+  }
+}
+

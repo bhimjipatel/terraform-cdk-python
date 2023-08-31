@@ -1,0 +1,7 @@
+**/*.d.ts.map
+**/*.js.map
+tsconfig.tsbuildinfo
+!tsconfig.json
+cdktf-convert-*
+cdktf-provider*
+!ambient.d.ts

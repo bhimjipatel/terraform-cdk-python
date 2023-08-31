@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`python terraform functions test synth synth generates JSON 1`] = `
+"{
+  "//": {
+    "metadata": {
+      "backend": "local",
+      "overrides": {
+        "null_resource": [
+          "triggers"
+        ],
+        "stack": [
+          "terraform"
+        ]
+      },
+      "stackName": "python-simple",
+      "version": "stubbed"
+    },
+    "outputs": {
+      "python-simple": {
+        "computed": "computed"
+      }
+    }
+  },
+  "output": {
+    "computed": {
+      "value": "\${element(merge({\\"id\\" = null_resource.null-resource.id}, {\\"value\\" = \\"123\\"}), 1)}"
+    }
+  },
+  "provider": {
+    "null": [
+      {}
+    ]
+  },
+  "resource": {
+    "null_resource": {
+      "null-resource": {
+        "//": {
+          "metadata": {
+            "path": "python-simple/null-resource",
+            "uniqueId": "null-resource"
+          }
+        },
+        "triggers": {
+          "cluster_instance_ids": "foo"
+        }
+      }
+    }
+  },
+  "terraform": {
+    "backend": {
+      "local": {
+        "path": "terraform.tfstate"
+      },
+      "remote": {
+        "organization": "test",
+        "workspaces": {
+          "name": "test"
+        }
+      }
+    },
+    "required_providers": {
+      "null": {
+        "source": "hashicorp/null",
+        "version": "3.1.1"
+      }
+    }
+  }
+}"
+`;
