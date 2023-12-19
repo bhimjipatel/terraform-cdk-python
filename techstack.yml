@@ -1,0 +1,1362 @@
+repo_name: bhimjipatel/terraform-cdk-python
+report_id: 06413a2550c3ba969a187fa578119763
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-19T07:18:19+00:00'
+requested_by: bhimjipatel
+provider: github
+branch: main
+detected_tools_count: 101
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source: Repo Metadata
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source: packages/@cdktf/hcl2cdk/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/packages/@cdktf/cli-core/templates/csharp/MyTerraformStack.csproj
+  detection_source: packages/@cdktf/cli-core/templates/csharp/MyTerraformStack.csproj
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/packages/@cdktf/cli-core/templates/csharp/MyTerraformStack.csproj
+  detection_source: packages/@cdktf/cli-core/templates/csharp/MyTerraformStack.csproj
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: test/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: Next.js
+  description: 'A small framework for server-rendered universal JavaScript apps '
+  website_url: https://nextjs.org/
+  version: 12.1.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/website/package-lock.json
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: XState
+  description: State machines and statecharts for the modern web
+  website_url: https://xstate.js.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/12312/default_b7db756c27572b5302a654fe5a96f617084c7d8a.png
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source: examples/python/aws-eks/Pipfile
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.21.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/hcl2cdk/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: Esbuild
+  description: An extremely fast JavaScript bundler
+  website_url: https://esbuild.github.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/25166/default_2dcc9286a150737a14625d18f6f93747f72be430.png
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source: Dockerfile
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 29.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source: packages/@cdktf/hcl2cdk/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 2.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: Sentry
+  description: 'See performance issues, fix errors faster, and optimize code health. '
+  website_url: https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile
+  open_source: true
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Exception Monitoring
+  image_url: https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: Terraform
+  description: Describe your complete infrastructure as code and build resources across
+    providers
+  website_url: https://www.terraform.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png
+  detection_source: packages/@cdktf/hcl2json/test/fixtures/vpc-module/main.tf
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: Terraform Registry
+  description: Describe your complete infrastructure as code and build resources across
+    providers
+  website_url: https://registry.terraform.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package_manager/49093/default_cdf079d244bded073d455911e6ce679abb1b77ab.png
+  detection_source: packages/@cdktf/hcl2json/test/fixtures/vpc-module/main.tf
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source: test/yarn.lock
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/tools/documentation-code-snippets/yarn.lock
+  detection_source: tools/documentation-code-snippets/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: website/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source: examples/python/aws-eks/Pipfile
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: Lerna
+  description: A tool for managing JavaScript projects
+  website_url: https://lerna.js.org/
+  version: 6.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/6207/OwqAUSQi_400x400.jpg
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: Vercel AI SDK
+  description: An interoperable, streaming-enabled, edge-ready software development
+    kit for AI apps
+  website_url: https://sdk.vercel.ai/docs
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/101756/default_4f2991cba3ec7fdd1cc87de69f4868157b0f2001.png
+  detection_source: cdk.tf/vercel.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: Zod
+  description: TypeScript-first schema validation
+  website_url: https://zod.dev/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48521/default_eea961e4c374e68a1c7eb5bbc9e4a39920890342.png
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source: package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source: package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: log4js
+  description: How people build software
+  website_url: http://stritti.github.io/log4js/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3962/pBeeJQDQ_normal.png
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@babel/generator"
+  description: Turns an AST into code
+  package_url: https://www.npmjs.com/@babel/generator
+  version: 7.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17361/default_e9c4b89784d4fe5d59f93b4a54dd8910ea23e5de.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/hcl2cdk/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@babel/template"
+  description: Generate an AST from a string template
+  package_url: https://www.npmjs.com/@babel/template
+  version: 7.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18110/image.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/hcl2cdk/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@babel/types"
+  description: Babel Types is a Lodash-esque utility library for AST nodes
+  package_url: https://www.npmjs.com/@babel/types
+  version: 7.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16786/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/hcl2cdk/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@sentry/node"
+  description: Offical Sentry SDK for Node.js
+  package_url: https://www.npmjs.com/@sentry/node
+  version: 6.19.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18428/default_9499465ee49aaffadf126149b962e9838bc4a993.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@types/cross-spawn"
+  description: TypeScript definitions for cross-spawn
+  package_url: https://www.npmjs.com/@types/cross-spawn
+  version: 6.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18504/default_aabef48673d7b85e098f65ec3d0fa0b5983de6b5.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: test/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@types/fs-extra"
+  description: TypeScript definitions for fs-extra
+  package_url: https://www.npmjs.com/@types/fs-extra
+  version: 8.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16170/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@types/glob"
+  description: TypeScript definitions for Glob
+  package_url: https://www.npmjs.com/@types/glob
+  version: 8.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16391/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/tools/documentation-generation/yarn.lock
+  detection_source: packages/@cdktf/hcl2cdk/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 29.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@types/json-schema"
+  description: TypeScript definitions for json-schema 4.0, 6.0 and
+  package_url: https://www.npmjs.com/@types/json-schema
+  version: 7.0.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18771/default_a5859a22d2687bca431101598566ff063dd79fa9.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@types/minimatch"
+  description: TypeScript definitions for Minimatch
+  package_url: https://www.npmjs.com/@types/minimatch
+  version: 5.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17630/default_b06ec1ccf403dac1459596b8571a4fb6a46577e1.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/tools/documentation-generation/yarn.lock
+  detection_source: packages/cdktf/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@types/nock"
+  description: Stub TypeScript definitions entry for nock
+  package_url: https://www.npmjs.com/@types/nock
+  version: 11.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16993/default_7a9e63a9526bf5da91e7a6f9f792b13e3543a875.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 16.11.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@types/node-fetch"
+  description: TypeScript definitions for node-fetch
+  package_url: https://www.npmjs.com/@types/node-fetch
+  version: 2.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16459/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@types/prettier"
+  description: TypeScript definitions for prettier
+  package_url: https://www.npmjs.com/@types/prettier
+  version: 2.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16943/default_c17ccfb3dc0510bb2c684b87ee080a74a9728c34.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.25
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@types/semver"
+  description: TypeScript definitions for semver
+  package_url: https://www.npmjs.com/@types/semver
+  version: 7.3.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16694/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 8.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@types/yargs"
+  description: TypeScript definitions for yargs
+  package_url: https://www.npmjs.com/@types/yargs
+  version: 17.0.24
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16404/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/cdktf-cli/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 4.33.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 4.33.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: archiver
+  description: A streaming interface for archive generation
+  package_url: https://www.npmjs.com/archiver
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16407/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: camelcase
+  description: 'Convert a dash/dot/underscore/space separated string to camelCase
+    or PascalCase: `foo-bar` → `fooBar`'
+  package_url: https://www.npmjs.com/camelcase
+  version: 5.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16559/default_50be6a65e5f7390c20dda2f19371abc1271db012.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/hcl2cdk/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: chokidar
+  description: A neat wrapper around node.js fs.watch / fs.watchFile / fsevents
+  package_url: https://www.npmjs.com/chokidar
+  version: 3.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16043/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/tools/documentation-code-snippets/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: cross-fetch
+  description: Universal WHATWG Fetch API for Node
+  package_url: https://www.npmjs.com/cross-fetch
+  version: 3.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17537/default_1922051267fa78212ab6eb1238cdf6aab8771493.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: cross-spawn
+  description: Cross platform child_process#spawn and child_process#spawnSync
+  package_url: https://www.npmjs.com/cross-spawn
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16069/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: deep-equal
+  description: Node's assert.deepEqual algorithm
+  package_url: https://www.npmjs.com/deep-equal
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16405/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/hcl2cdk/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: deepmerge
+  description: A library for deep
+  package_url: https://www.npmjs.com/deepmerge
+  version: 4.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16179/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/hcl2cdk/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: detect-port
+  description: Node.js implementation of port detector
+  package_url: https://www.npmjs.com/detect-port
+  version: 1.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16949/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: eslint-plugin-jsdoc
+  description: JSDoc linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-jsdoc
+  version: 39.6.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16672/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/cdktf/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.31.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: execa
+  description: Process execution for humans
+  package_url: https://www.npmjs.com/execa
+  version: 5.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16132/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: test/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: extract-zip
+  description: Unzip a zip file into a directory using 100% javascript
+  package_url: https://www.npmjs.com/extract-zip
+  version: 2.0.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17488/default_2ae5beb193365eca46e337162957275ebc9c6b3b.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: follow-redirects
+  description: HTTP and HTTPS modules that follow redirects
+  package_url: https://www.npmjs.com/follow-redirects
+  version: 1.14.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17687/default_9693d58c90f5c726ee648423687212d2a94266da.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+  vulnerabilities:
+  - name: Exposure of sensitive information in follow-redirects
+    cve_id: CVE-2022-0155
+    cve_url: https://github.com/advisories/GHSA-74fj-2j2h-c42q
+    detected_date: Jan 18
+    severity: high
+    first_patched: 1.14.7
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in follow-redirects
+    cve_id: CVE-2022-0536
+    cve_url: https://github.com/advisories/GHSA-pw2r-vq6v-hr8c
+    detected_date: Feb 12
+    severity: moderate
+    first_patched: 1.14.8
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 8.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 7.2.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/hcl2cdk/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: https-proxy-agent
+  description: An HTTP
+  package_url: https://www.npmjs.com/https-proxy-agent
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17334/default_6afdd1bc7e3815a18b56c31d0b4acf372c00f6e2.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: indent-string
+  description: Indent each line in a string
+  package_url: https://www.npmjs.com/indent-string
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18122/image.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: ink
+  description: React for CLI
+  package_url: https://www.npmjs.com/ink
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17838/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: json-stable-stringify
+  description: Deterministic JSON.stringify
+  package_url: https://www.npmjs.com/json-stable-stringify
+  version: 1.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16953/default_277303773c2bdb575ee8f4bfe869f0a33d6755b2.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/tools/documentation-generation/yarn.lock
+  detection_source: packages/cdktf/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: lodash.isequal
+  description: The Lodash method `_.isEqual` exported as a module
+  package_url: https://www.npmjs.com/lodash.isequal
+  version: 4.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16523/default_28df1e698b81279fa78b702212cd6185de706683.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: minimatch
+  description: A glob matcher in javascript
+  package_url: https://www.npmjs.com/minimatch
+  version: 3.0.4
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16195/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+  vulnerabilities:
+  - name: minimatch ReDoS vulnerability
+    cve_id: CVE-2022-3517
+    cve_url: https://github.com/advisories/GHSA-f8q6-p94x-37v3
+    detected_date: Oct 21
+    severity: high
+    first_patched: 3.0.5
+- name: nock
+  description: HTTP server mocking and expectations library for Node.js
+  package_url: https://www.npmjs.com/nock
+  version: 13.2.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16036/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: open
+  description: Open stuff like URLs, files, executables. Cross-platform
+  package_url: https://www.npmjs.com/open
+  version: 7.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16245/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: pkg-up
+  description: Find the closest package.json file
+  package_url: https://www.npmjs.com/pkg-up
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18426/default_9499465ee49aaffadf126149b962e9838bc4a993.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 7.3.5
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+  vulnerabilities:
+  - name: semver vulnerable to Regular Expression Denial of Service
+    cve_id: CVE-2022-25883
+    cve_url: https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+    detected_date: Jun 23
+    severity: moderate
+    first_patched: 7.5.2
+- name: standard-version
+  description: Replacement for `npm version` with automatic CHANGELOG generation
+  package_url: https://www.npmjs.com/standard-version
+  version: 9.5.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16053/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: stream-buffers
+  description: Buffer-backed Streams for reading and writing
+  package_url: https://www.npmjs.com/stream-buffers
+  version: 3.0.2
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17778/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: strip-ansi
+  description: Strip ANSI escape codes from a string
+  package_url: https://www.npmjs.com/strip-ansi
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16331/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 29.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/tools/documentation-code-snippets/yarn.lock
+  detection_source: tools/documentation-code-snippets/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 8.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: xml-js
+  description: A convertor between XML text and Javascript object / JSON text
+  package_url: https://www.npmjs.com/xml-js
+  version: 1.6.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18393/default_dc6769b9772560ba4cb2cd0455560c2922e23c92.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 17.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: 4.13.2
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/packages/@cdktf/cli-core/templates/java/build.gradle
+  detection_source: packages/@cdktf/cli-core/templates/java/build.gradle
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: org.junit.jupiter:junit-jupiter
+  description: Module "junit-jupiter" of JUnit 5
+  version: 5.8.0
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/packages/@cdktf/cli-core/templates/java/build.gradle
+  detection_source: packages/@cdktf/cli-core/templates/java/build.gradle
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
