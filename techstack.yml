@@ -2,11 +2,11 @@ repo_name: bhimjipatel/terraform-cdk-python
 report_id: 06413a2550c3ba969a187fa578119763
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-19T07:18:19+00:00'
+timestamp: '2024-01-05T08:20:47+00:00'
 requested_by: bhimjipatel
 provider: github
 branch: main
-detected_tools_count: 101
+detected_tools_count: 105
 tools:
 - name: C#
   description: Simple, general-purpose, object-oriented programming language for the
@@ -17,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python
   detection_source: Repo Metadata
 - name: Golang
   description: An open source programming language that makes it easy to build simple,
@@ -28,6 +29,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python
   detection_source: Repo Metadata
 - name: Java
   description: A concurrent, class-based, object-oriented, language specifically designed
@@ -38,6 +40,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -48,6 +51,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -58,6 +62,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -68,6 +73,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -79,6 +85,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/packages/@cdktf/hcl2cdk/package.json
   detection_source: packages/@cdktf/hcl2cdk/package.json
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -149,6 +156,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/packages/@cdktf/cli-core/package.json
   detection_source: packages/@cdktf/cli-core/package.json
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -175,6 +183,7 @@ tools:
   category: Libraries
   sub_category: State Management Library
   image_url: https://img.stackshare.io/service/12312/default_b7db756c27572b5302a654fe5a96f617084c7d8a.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/packages/@cdktf/cli-core/package.json
   detection_source: packages/@cdktf/cli-core/package.json
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -186,6 +195,7 @@ tools:
   category: Data Stores
   sub_category: Database Tools
   image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/examples/python/aws-eks/Pipfile
   detection_source: examples/python/aws-eks/Pipfile
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -212,6 +222,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python
   detection_source: Repo Metadata
 - name: ESLint
   description: The fully pluggable JavaScript code quality tool
@@ -222,6 +233,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/package.json
   detection_source: package.json
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -234,6 +246,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/25166/default_2dcc9286a150737a14625d18f6f93747f72be430.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/packages/@cdktf/cli-core/package.json
   detection_source: packages/@cdktf/cli-core/package.json
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -245,6 +258,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python
   detection_source: Repo Metadata
 - name: Gradle
   description: A powerful build system for the JVM
@@ -255,6 +269,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/Dockerfile
   detection_source: Dockerfile
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -280,6 +295,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/packages/@cdktf/hcl2cdk/package.json
   detection_source: packages/@cdktf/hcl2cdk/package.json
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -305,6 +321,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/packages/@cdktf/cli-core/package.json
   detection_source: packages/@cdktf/cli-core/package.json
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -316,6 +333,7 @@ tools:
   category: Monitoring
   sub_category: Exception Monitoring
   image_url: https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/packages/@cdktf/cli-core/package.json
   detection_source: packages/@cdktf/cli-core/package.json
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -329,6 +347,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/packages/@cdktf/hcl2json/test/fixtures/vpc-module/main.tf
   detection_source: packages/@cdktf/hcl2json/test/fixtures/vpc-module/main.tf
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -342,6 +361,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package_manager/49093/default_cdf079d244bded073d455911e6ce679abb1b77ab.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/packages/@cdktf/hcl2json/test/fixtures/vpc-module/main.tf
   detection_source: packages/@cdktf/hcl2json/test/fixtures/vpc-module/main.tf
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -353,6 +373,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
   detection_source: test/yarn.lock
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -378,6 +399,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/website/package.json
   detection_source: website/package.json
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -389,6 +411,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/examples/python/aws-eks/Pipfile
   detection_source: examples/python/aws-eks/Pipfile
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -415,6 +438,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python
   detection_source: Repo Metadata
 - name: Vercel AI SDK
   description: An interoperable, streaming-enabled, edge-ready software development
@@ -425,6 +449,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/101756/default_4f2991cba3ec7fdd1cc87de69f4868157b0f2001.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/cdk.tf/vercel.json
   detection_source: cdk.tf/vercel.json
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -434,6 +459,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/48521/default_eea961e4c374e68a1c7eb5bbc9e4a39920890342.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/packages/@cdktf/cli-core/package.json
   detection_source: packages/@cdktf/cli-core/package.json
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -443,6 +469,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/packages/@cdktf/cli-core/package.json
   detection_source: packages/@cdktf/cli-core/package.json
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -451,6 +478,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/package.json
   detection_source: package.json
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -459,6 +487,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/package.json
   detection_source: package.json
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -468,6 +497,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/3962/pBeeJQDQ_normal.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/packages/@cdktf/cli-core/package.json
   detection_source: packages/@cdktf/cli-core/package.json
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
@@ -794,6 +824,20 @@ tools:
   detection_source: packages/@cdktf/hcl2cdk/package.json
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
 - name: chokidar
   description: A neat wrapper around node.js fs.watch / fs.watchFile / fsevents
   package_url: https://www.npmjs.com/chokidar
@@ -1067,6 +1111,20 @@ tools:
   detection_source: packages/@cdktf/cli-core/package.json
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 8.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
 - name: indent-string
   description: Indent each line in a string
   package_url: https://www.npmjs.com/indent-string
@@ -1109,6 +1167,20 @@ tools:
   detection_source: packages/cdktf/package.json
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 13.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
 - name: lodash.isequal
   description: The Lodash method `_.isEqual` exported as a module
   package_url: https://www.npmjs.com/lodash.isequal
@@ -1120,6 +1192,20 @@ tools:
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16523/default_28df1e698b81279fa78b702212cd6185de706683.png
   detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/yarn.lock
+  detection_source: packages/@cdktf/cli-core/package.json
+  last_updated_by: Bhimji Patel
+  last_updated_on: 2023-08-31 13:41:08.000000000 Z
+- name: log4js
+  description: Port of Log4js to work with node
+  package_url: https://www.npmjs.com/log4js
+  version: 6.9.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16355/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
+  detection_source_url: https://github.com/bhimjipatel/terraform-cdk-python/blob/main/test/yarn.lock
   detection_source: packages/@cdktf/cli-core/package.json
   last_updated_by: Bhimji Patel
   last_updated_on: 2023-08-31 13:41:08.000000000 Z
