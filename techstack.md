@@ -82,7 +82,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [bhimjipatel/terraform-cdk-python](https://github.com/bhimjipatel/terraform-cdk-python)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|101<br/>Tools used|12/19/23 <br/>Report generated|
+|105<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -436,9 +436,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (61)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (65)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (59)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (63)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -465,6 +465,7 @@ Full tech stack [here](/techstack.md)
 |[@typescript-eslint/parser](https://www.npmjs.com/@typescript-eslint/parser)|v4.33.0|08/31/23|Bhimji Patel |BSD-2-Clause|N/A|
 |[archiver](https://www.npmjs.com/archiver)|v5.3.0|08/31/23|Bhimji Patel |MIT|N/A|
 |[camelcase](https://www.npmjs.com/camelcase)|v5.3.1|08/31/23|Bhimji Patel |MIT|N/A|
+|[chalk](https://www.npmjs.com/chalk)|v2.4.2|08/31/23|Bhimji Patel |MIT|N/A|
 |[chokidar](https://www.npmjs.com/chokidar)|v3.5.3|08/31/23|Bhimji Patel |MIT|N/A|
 |[cross-fetch](https://www.npmjs.com/cross-fetch)|v3.1.5|08/31/23|Bhimji Patel |MIT|N/A|
 |[cross-spawn](https://www.npmjs.com/cross-spawn)|v7.0.3|08/31/23|Bhimji Patel |MIT|N/A|
@@ -483,10 +484,13 @@ Full tech stack [here](/techstack.md)
 |[fs-extra](https://www.npmjs.com/fs-extra)|v8.1.0|08/31/23|Bhimji Patel |MIT|N/A|
 |[glob](https://www.npmjs.com/glob)|v7.2.3|08/31/23|Bhimji Patel |ISC|N/A|
 |[https-proxy-agent](https://www.npmjs.com/https-proxy-agent)|v5.0.1|08/31/23|Bhimji Patel |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v8.0.2|08/31/23|Bhimji Patel |MIT|N/A|
 |[indent-string](https://www.npmjs.com/indent-string)|v4.0.0|08/31/23|Bhimji Patel |MIT|N/A|
 |[ink](https://www.npmjs.com/ink)|v3.2.0|08/31/23|Bhimji Patel |MIT|N/A|
 |[json-stable-stringify](https://www.npmjs.com/json-stable-stringify)|v1.0.2|08/31/23|Bhimji Patel |MIT|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v13.0.3|08/31/23|Bhimji Patel |MIT|N/A|
 |[lodash.isequal](https://www.npmjs.com/lodash.isequal)|v4.5.0|08/31/23|Bhimji Patel |MIT|N/A|
+|[log4js](https://www.npmjs.com/log4js)|v6.9.1|08/31/23|Bhimji Patel |Apache-2.0|N/A|
 |[minimatch](https://www.npmjs.com/minimatch)|v3.0.4|08/31/23|Bhimji Patel |ISC|[CVE-2022-3517](https://github.com/advisories/GHSA-f8q6-p94x-37v3) (High)|
 |[nock](https://www.npmjs.com/nock)|v13.2.9|08/31/23|Bhimji Patel |MIT|N/A|
 |[node-fetch](https://www.npmjs.com/node-fetch)|v2.6.7|08/31/23|Bhimji Patel |MIT|N/A|
